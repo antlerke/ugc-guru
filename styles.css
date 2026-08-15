@@ -183,13 +183,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .cta-btn-secondary:hover { background: var(--text-dark); color: #fff; }
 .cta-btn-hero {
-    background: rgba(255,255,255,0.95);
+    background: #FED2F3;
     color: var(--text-dark);
     border: 2px solid transparent;
     font-size: 0.75rem;
     letter-spacing: 0.15em;
 }
-.cta-btn-hero:hover { background: var(--azure); }
+.cta-btn-hero:hover { background: #fbbde9; }
 .cta-btn-large { padding: 1.125rem 3rem; font-size: 0.875rem; }
 
 /* ─── Sections ───────────────────────────────────────────────── */
@@ -201,7 +201,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .section-title {
     font-size: clamp(1.75rem, 4vw, 2.75rem);
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     color: var(--text-dark);
     margin-bottom: var(--space-2xl);
@@ -247,12 +247,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     width: 100%;
 }
 .hero-badge {
-    font-size: 0.65rem;
-    font-weight: 700;
+    display: inline-block;
+    font-size: 0.55rem;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--azure);
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-sm);
+    padding: 3px 12px;
+    border: 0.5px solid rgba(169, 213, 255, 0.5);
+    border-radius: 2px;
 }
 .hero-new-list {
     margin-bottom: var(--space-md);
@@ -261,8 +265,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     gap: 0.3rem;
 }
 .hero-new-list li {
-    font-size: 0.8rem;
-    color: rgba(255,255,255,0.8);
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.75);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -278,7 +282,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .hero-title {
     font-size: clamp(2.5rem, 8vw, 5.5rem);
-    font-weight: 800;
+    font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 0.95;
@@ -492,7 +496,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .module-name {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     color: var(--text-dark);
     letter-spacing: 0.03em;
@@ -593,7 +597,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .bonus-item h3 {
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--text-dark);
@@ -645,7 +649,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .pricing-tier {
     font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--text-dark);
