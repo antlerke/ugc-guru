@@ -688,6 +688,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     background: var(--azure);
 }
 .pricing-btn { margin-top: auto; width: 100%; display: block; }
+.pricing-card--prime .cta-btn-primary {
+    background: #FED2F3;
+    border-color: #FED2F3;
+    color: var(--text-dark);
+}
+.pricing-card--prime .cta-btn-primary:hover { background: #fbbde9; border-color: #fbbde9; }
 @media (min-width: 700px) {
     .pricing-grid { grid-template-columns: 1fr 1fr; }
 }
