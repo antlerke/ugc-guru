@@ -140,7 +140,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .nav-menu.open { transform: translateX(0); }
 .nav-menu a {
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-dark);
