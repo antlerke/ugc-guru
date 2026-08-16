@@ -700,6 +700,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     border-radius: 50%;
     background: var(--azure);
 }
+.pricing-card--prime .pricing-features li::before { background: var(--text-dark); }
 .pricing-btn { margin-top: auto; width: 100%; display: block; }
 .pricing-card--prime .cta-btn-primary {
     background: #FED2F3;
