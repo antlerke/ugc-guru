@@ -642,7 +642,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    background: var(--azure);
+    background: #FED2F3;
     color: var(--text-dark);
     border-radius: 4px;
     padding: 0.25rem 0.75rem;
