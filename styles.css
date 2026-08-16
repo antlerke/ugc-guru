@@ -631,8 +631,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     gap: var(--space-md);
 }
 .pricing-card--prime {
-    background: linear-gradient(145deg, #1A2535 0%, #0E1520 100%);
-    border-color: rgba(169, 213, 255, 0.2);
+    background: #FED2F3;
+    border-color: rgba(0,0,0,0.1);
 }
 .pricing-tier-badge {
     position: absolute;
@@ -654,14 +654,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     letter-spacing: 0.08em;
     color: var(--text-dark);
 }
-.pricing-card--prime .pricing-tier { color: #fff; }
+.pricing-card--prime .pricing-tier { color: var(--text-dark); }
 .pricing-price {
     font-size: clamp(2.5rem, 6vw, 3.5rem);
     font-weight: 400;
     color: var(--text-dark);
     line-height: 1;
 }
-.pricing-card--prime .pricing-price { color: var(--azure); }
+.pricing-card--prime .pricing-price { color: var(--text-dark); }
 .pricing-currency { font-size: 0.5em; vertical-align: super; }
 .pricing-features {
     display: flex;
@@ -676,7 +676,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     position: relative;
     line-height: 1.5;
 }
-.pricing-card--prime .pricing-features li { color: rgba(255,255,255,0.75); }
+.pricing-card--prime .pricing-features li { color: var(--text-primary); }
 .pricing-features li::before {
     content: '';
     position: absolute;
@@ -690,10 +690,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .pricing-btn { margin-top: auto; width: 100%; display: block; }
 .pricing-card--prime .cta-btn-primary {
     background: #FED2F3;
-    border-color: #FED2F3;
+    border-color: var(--text-dark);
     color: var(--text-dark);
 }
-.pricing-card--prime .cta-btn-primary:hover { background: #fbbde9; border-color: #fbbde9; }
+.pricing-card--prime .cta-btn-primary:hover { background: #fbbde9; border-color: var(--text-dark); }
 @media (min-width: 700px) {
     .pricing-grid { grid-template-columns: 1fr 1fr; }
 }
