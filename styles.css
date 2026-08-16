@@ -550,10 +550,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     position: relative;
 }
 .module-topics li::before {
-    content: '—';
+    content: '';
     position: absolute;
     left: 0;
-    color: var(--azure-mid);
+    top: 0.55em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--azure-mid);
 }
 .module-bonus {
     font-size: 0.8rem;
