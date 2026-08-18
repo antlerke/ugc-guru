@@ -22,7 +22,17 @@ hamburger?.addEventListener('click', () =>
 navOverlay?.addEventListener('click', closeMenu);
 document.querySelector('.nav-close')?.addEventListener('click', closeMenu);
 
-navMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+navMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (href && href.startsWith('#')) {
+        e.preventDefault();
+        closeMenu();
+        const target = document.querySelector(href);
+        if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth' }), 50);
+    } else {
+        closeMenu();
+    }
+}));
 
 /* ─── Accordion ───────────────────────────────────────────────── */
 document.querySelectorAll('.module-header').forEach(btn => {
