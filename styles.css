@@ -228,6 +228,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     overflow: hidden;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 .hero-img {
     position: absolute;
@@ -253,6 +254,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     padding: var(--space-2xl) var(--space-md);
     max-width: 680px;
     width: 100%;
+    text-align: center;
 }
 .hero-badge {
     display: inline-block;
@@ -270,6 +272,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     margin-bottom: var(--space-md);
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.3rem;
 }
 .hero-new-list li {
