@@ -840,6 +840,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     color: rgba(255,255,255,0.35);
 }
 .footer-heart { color: #7521DD; }
+.footer-credit-link { color: rgba(255,255,255,0.35); text-decoration: none; }
+.footer-credit-link:hover { color: #7521DD; }
 
 /* ─── Animation ──────────────────────────────────────────────── */
 @keyframes fadeInUp {
