@@ -307,9 +307,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     .hero-content { padding: var(--space-3xl) var(--space-lg); }
 }
 @media (min-width: 1024px) {
+    .hero {
+        max-width: 520px;
+        margin: 0 auto;
+    }
     .hero-img { object-position: 52% top; }
-    .hero-content { padding: var(--space-3xl) var(--space-3xl); max-width: 760px; }
-    .hero-new-list { flex-direction: row; flex-wrap: wrap; gap: 0.3rem 1.5rem; }
+    .hero-content { padding: var(--space-3xl) var(--space-md); max-width: 100%; }
+    .hero-title { font-size: 2.75rem; }
     .hero-new-list li { font-size: 0.875rem; }
     .hero-badge { font-size: 0.7rem; }
 }
@@ -825,6 +829,17 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .footer-contact a { color: var(--azure); }
 .footer-contact a:hover { color: var(--azure-mid); }
+.footer {
+    position: relative;
+}
+.footer-credit {
+    position: absolute;
+    right: var(--space-md);
+    bottom: var(--space-lg);
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.35);
+}
+.footer-heart { color: #7521DD; }
 
 /* ─── Animation ──────────────────────────────────────────────── */
 @keyframes fadeInUp {
